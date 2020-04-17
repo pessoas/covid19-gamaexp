@@ -39,9 +39,23 @@ body {
   color: white;
 }
 
+
+#corpo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*
 .noticia {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}*/
+
+.noticia-conteudo {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
