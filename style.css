@@ -1,3 +1,7 @@
+
+/*
+  Estilização geral do documento
+*/
 body {
   background-color:grey;
   font-family: sans-serif;
@@ -18,6 +22,9 @@ body {
   box-shadow: black 2px 2px 5px;
 }
 
+/*
+  Estilização da barra de navegação
+*/
 
 #navbar {
   display: flex;
@@ -39,6 +46,16 @@ body {
   color: white;
 }
 
+/*
+  Fim estilização da barra de navegação
+
+  Fim da estilização geral
+*/
+
+
+/*
+  Estilização do conteudo da home
+*/
 
 #corpo {
   display: flex;
@@ -46,17 +63,32 @@ body {
   align-items: flex-start;
 }
 
-/*
 .noticia {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}*/
+  background-color: rgb(202, 202, 202);
+  border-radius: 10px;
+  padding: 1%;
+  margin-top: 1%;
+  width: 98%;
+}
 
 .noticia-conteudo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.noticia-conteudo a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.noticia-conteudo a:hover{
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.noticia-conteudo article {
+  padding: 2%;
 }
 
 .noticia img{
@@ -64,8 +96,10 @@ body {
   border-radius: 10px;
 }
 
-/*
-.noticia iframe{
-  width: 30%;
+.noticia iframe {
   border-radius: 10px;
-}*/
+}
+
+/*
+  Fim estilização do conteudo da home
+*/
