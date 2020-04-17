@@ -32,6 +32,9 @@ body {
   padding: 15px 20px;
   justify-content: space-around;
   align-items: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .navlinks {
@@ -102,4 +105,34 @@ body {
 
 /*
   Fim estilização do conteudo da home
+
+  Estilização do conteudo do sobre
 */
+
+#sobre-div {
+  display: flex;
+  align-items: center;
+}
+
+
+#foto-perfil {
+  width: 60%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 3%;
+
+}
+
+#sobre-links{
+  display: inline-flex;
+
+
+}
+
+.social-image {
+  width: 60px;
+  padding: 10%;
+  margin: 10%;
+}
