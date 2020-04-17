@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.: Covid-19 :.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="conteudo">
+    <div id="titulo">
+      <h1>Notícias Covid-19</h1>
+    </div>
+
+    <div id="navbar">
+      <div><a href="home.html" class="navlinks">Home</a></div>
+      <div><a href="sobre.html" class="navlinks">Sobre</a></div>
+      <div><a href="#contato" class="navlinks">Contato</a></div>
+      <div><a href="moreInfo.html" class="navlinks">Saiba mais</a></div>
+    </div>
+
+    <div id="contato">
+      <h2>Entre em contato</h2>
+      <form id="form-contato" method="POST" data-netlify="true">
+        <div id="name-div">
+          <label for="nome" id="nome-label">Nome: </label>
+          <input type="text" name="Nome" id="nome" placeholder="Digite seu nome" required >
+        </div>
+        <div id="email-div">
+          <label for="email" id="email-label">Email: </label>
+          <input type="email" name="Email" id="email" placeholder="Digite seu email" >
+        </div>
+        <div id="mensagem-div">
+          <label for="text-area">Mensagem</label> <br/>
+          <textarea name="mensagem" id="text-area" cols="30" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea>
+        </div>
+        <div id="submit-div">
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Resetar">
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+  
+</body>
+</html>
