@@ -142,3 +142,58 @@ body {
 
   Estilização do conteudo do contato
 */
+
+#contato h2{
+  text-align: center;
+}
+
+#form-contato {
+  background-color: rgb(202, 202, 202);
+  border-radius: 10px;
+  padding: 3% 5% 3% 5%;
+}
+
+#form-contato input{
+  outline: none;
+}
+
+#form-contato input[type=text], #form-contato input[type=email] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#form-contato input[type=submit], #form-contato input[type=reset] {
+  background-color: #555;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#form-contato input[type=submit]:hover, #form-contato input[type=reset]:hover {
+  background-color: #333;
+} 
+
+#form-contato input[type=text]:focus, #form-contato input[type=email]:focus {
+  border: 3px solid #555;
+}
+
+#form-contato textarea {
+  width: 100%;
+  outline: none;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  resize: none;
+  border: 1px solid rgb(202, 202, 202);
+}
+#form-contato textarea:focus {
+  border: 3px solid #555;
+}
+
+
+
+
