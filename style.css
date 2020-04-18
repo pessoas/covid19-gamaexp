@@ -69,8 +69,8 @@ body {
 .noticia {
   background-color: rgb(202, 202, 202);
   border-radius: 10px;
-  padding: 1%;
-  margin-top: 1%;
+  padding: 10px;
+  margin-top: 10px;
   width: 98%;
 }
 
@@ -109,30 +109,36 @@ body {
   Estilização do conteudo do sobre
 */
 
+#sobre h2 {
+  text-align: center;
+}
+
 #sobre-div {
   display: flex;
   align-items: center;
 }
 
-
 #foto-perfil {
-  width: 60%;
+  width: 600px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
   float: left;
   margin: 3%;
-
 }
 
 #sobre-links{
   display: inline-flex;
-
-
 }
 
 .social-image {
-  width: 60px;
+  width: 30px;
   padding: 10%;
   margin: 10%;
 }
+
+/*
+  Fim estilização do conteudo do sobre
+
+  Estilização do conteudo do contato
+*/
