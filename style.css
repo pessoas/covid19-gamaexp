@@ -71,7 +71,7 @@ body {
   border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
-  width: 98%;
+
 }
 
 .noticia-conteudo {
@@ -194,6 +194,48 @@ body {
   border: 3px solid #555;
 }
 
+/*
+  Fim estilização do conteudo do contato
+
+  Estilização do conteudo do saiba mais
+*/
 
 
 
+#saibamais {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.links-div{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(202, 202, 202);
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 10px;
+  padding: 2%;
+}
+
+.links-div a{
+  text-decoration: none;
+  padding: 15px 15px;
+  text-align: left;
+  color: black;
+}
+
+.links-div a:hover{
+  background-color: #555;
+  border-radius: 10px;
+}
+
+#outras-infos {
+  margin-left: 20px;
+  text-align: right;
+}
+
+#outras-infos a{
+  text-align: right;
+}
