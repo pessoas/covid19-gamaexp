@@ -21,17 +21,20 @@ body {
   font-family: 'Oxygen', sans-serif;
   margin-bottom: -5%;
   margin-top: -2%;
+  color: rgb(4, 37, 58);
 }
 
 
 #titulo img{
   height: 1em;
   vertical-align: sub;
+  filter: invert(11%) sepia(55%) saturate(1053%) hue-rotate(164deg) brightness(94%) contrast(99%);
 }
 
 #titulo h2 {
   font-family: 'Poiret One', sans-serif;
   transform: translateX(10%) translateY(-100%);
+  font-size: 150%;
 }
 
 h3 {
