@@ -19,24 +19,24 @@ body {
   text-align: center;
   font-size: 250%;
   font-family: 'Oxygen', sans-serif;
+  margin-bottom: -5%;
+  margin-top: -2%;
 }
 
 
 #titulo img{
   height: 1em;
   vertical-align: sub;
-  filter: invert(44%) sepia(19%) saturate(1071%) hue-rotate(174deg) brightness(90%) contrast(84%);
 }
 
 #titulo h2 {
-  font-family: 'Advent Pro', sans-serif;
-  transform: translateX(15%) translateY(-100%);
+  font-family: 'Poiret One', sans-serif;
+  transform: translateX(10%) translateY(-100%);
 }
 
 h3 {
-  background-color: rgb(165, 165, 165);
+  background-color: rgba(88, 138, 131, 0.5);
   padding: 15px 20px;
-  border-radius: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
@@ -46,7 +46,7 @@ h3 {
 
 #navbar {
   display: flex;
-  background-color: #333;
+  background-color: rgb(4, 37, 58);
   padding: 20px 20px;
   justify-content: space-around;
   align-items: center;
@@ -82,13 +82,12 @@ h3 {
 #corpo {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 10px;  
+  gap: 10px;
 }
 
 .noticia {
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(225, 221, 191);
   border-radius: 10px;
-  padding: 10px;
   margin-top: 10px;
 
 }
@@ -97,9 +96,10 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 2%;
 }
 .noticia-conteudo a{
-  text-decoration: none;
+
   color: black;
   font-weight: bold;
 }
@@ -128,8 +128,16 @@ h3 {
   Estilização do conteudo do sobre
 */
 
-#sobre h2 {
+#sobre {
+  background-color: rgb(225, 221, 191);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#sobre h3 {
   text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 #sobre-div {
@@ -167,7 +175,7 @@ h3 {
 }
 
 #form-contato {
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(225, 221, 191);
   border-radius: 10px;
   padding: 3% 5% 3% 5%;
 }
@@ -184,7 +192,7 @@ h3 {
 }
 
 #form-contato input[type=submit], #form-contato input[type=reset] {
-  background-color: #555;
+  background-color: rgb(4, 37, 58);
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -193,7 +201,7 @@ h3 {
 }
 
 #form-contato input[type=submit]:hover, #form-contato input[type=reset]:hover {
-  background-color: #333;
+  background-color: rgb(80, 113, 156);
 } 
 
 #form-contato input[type=text]:focus, #form-contato input[type=email]:focus {
@@ -231,11 +239,10 @@ h3 {
 .links-div{
   display: flex;
   flex-direction: column;
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(225, 221, 191);
   border-radius: 10px;
   text-align: left;
   margin-top: 10px;
-  padding: 2%;
 }
 
 .links-div a{
@@ -243,10 +250,11 @@ h3 {
   padding: 15px 15px;
   text-align: left;
   color: black;
+  margin: 2%;
 }
 
 .links-div a:hover{
-  background-color: rgb(80, 113, 156);
+  background-color: rgba(80, 113, 156, 0.5);
   border-radius: 10px;
 }
 
@@ -258,3 +266,5 @@ h3 {
 #outras-infos a{
   text-align: right;
 }
+
+/* Fim da estilização do saiba mais */
